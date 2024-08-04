@@ -21,4 +21,4 @@ function logger:error(...)
     print(transformedText)
 end
 
-bridge.logger = logger
+return logger
